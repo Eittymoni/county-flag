@@ -1,0 +1,663 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    text-align: center;
+    margin-top: 50px;
+}
+.main{
+     width: 1200px;
+    margin: 0 auto;
+}
+p{
+    text-align: center;
+    font-weight: bold;
+
+}
+.one{
+    height: 300px;
+    width: 100%;
+}
+.two{
+    height: 300px;
+    width: 100%;
+}
+.three{
+    height: 300px;
+    width: 100%;
+    
+}
+.four{
+    height: 300px;
+    width: 100%; 
+}
+.five{
+    height: 300px;
+    width: 100%;
+}
+.bangladesh{
+    height: 250px;
+    width: 300px;
+    border: 2px solid black;
+    background-color: rgb(240, 242, 242);
+    margin: 10px;
+    padding: 10px;
+    float: left;
+}
+.b-green{
+  height: 200px;
+  width: 300px;
+  margin: 0 auto;
+  background-color: rgb(0,106,78);
+  position: relative;
+  
+}
+.b-red{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgb(244,42,65);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.japan{
+    height: 250px;
+    width: 300px;
+    border: 2px solid black;
+    background-color: rgb(240, 242, 242);
+    margin: 10px;
+    padding: 10px;
+    float: left;
+}
+.j-white{
+    height: 200px;
+    width: 300px;
+    margin: 0 auto;
+    background-color: white;
+    position: relative;
+}
+.j-red{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgb(188,0,45);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.vietnam{
+    height: 250px;
+    width: 300px;
+    border: 2px solid black;
+    background-color: rgb(240, 242, 242);
+    margin: 10px;
+    padding: 10px;
+    float: left;
+}
+.v-org{
+    height: 200px;
+    width: 300px;
+    margin: 0 auto;
+    background-color: rgb(254,0,0);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.v-org i{
+    color: rgb(255,255,1);
+    font-size: 100px;
+}
+.pakistan{
+    height: 250px;
+    width: 300px;
+    border: 2px solid black;
+    background-color: rgb(240, 242, 242);
+    margin: 10px;
+    padding: 10px;
+   float: left;
+  
+}
+.p-white{
+    height: 200px;
+    width: 100px;
+    background-color: #fff;
+    float: left;
+}
+.p-green{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(1,65,28);
+    float: left;
+    
+}
+.p-moon{
+    position: relative;
+    margin: 0 auto;
+    top: -10%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: -20px 10px 0 0 #fff;
+}
+.p-star{
+    position: relative;
+    margin: 0 auto;
+    top: 30%;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    clip-path: polygon(
+        50% 0%,
+        63% 38%,
+        100% 38%,
+        69% 59% ,
+        82% 100% ,
+        50% 75%,
+        18% 100% ,
+        31% 59%,
+        0% 38% ,
+        37% 38%);
+}
+.morocco{
+    height: 250px;
+    width: 300px;
+    border: 2px solid black;
+    background-color: rgb(240, 242, 242);
+    margin: 10px;
+    padding: 10px;
+   float: left;
+}
+.m-red{
+    height: 200px;
+    width: 300px;
+    max-width: 100%;
+    background-color: rgb(231,0,20);
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.set{
+    height: 100px;
+    width: 6px;
+    background: rgb(0,131,0);
+}
+.starline1{
+    height: 90px;
+    transform: rotate(20deg);
+    margin-left: 120px;
+}
+.starline2{
+    height: 90px;
+    transform: rotate(336deg);
+    margin-left: 26.2px;
+}
+.starline3{
+    transform: rotate(-56deg);
+    position: absolute;
+    top: 66px;
+    right: 165.2px;
+}
+.starline4{
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 39.2px;
+    margin-left: 137.2px;
+}
+.starline5{
+    transform: rotate(56deg);
+    position: absolute;
+    top: 65.2px;
+    left: 144.2px;
+}
+.switzerland{
+    height: 250px;
+    width: 300px;
+    border: 2px solid black;
+    background-color: rgb(240, 242, 242);
+    margin: 10px;
+    padding: 10px;
+   float: left;
+}
+.sw-body{
+    height: 200px;
+    width: 300px;
+    position: relative;
+}
+.sw-color{
+    background-color: rgb(254,0,0);
+    display: grid;
+    place-items: center;
+}
+.sw-color::before{
+    position: absolute;
+    content:"" ;
+    width: 125px;
+    aspect-ratio: 1;
+    background-color: white;
+    clip-path: polygon(
+        0 35%,
+        35% 35%,
+        35% 0%,
+        65% 0%,
+        65% 35%,
+        100% 35%,
+        100% 65%,
+        65% 65%,
+        65% 100%,
+        35% 100%,
+        35% 65%,
+        0 65%
+    );
+}
+.ukrain{
+    height: 250px;
+    width: 300px;
+    border: 2px solid black;
+    background-color: rgb(240, 242, 242);
+    margin: 10px;
+    padding: 10px;
+   float: left;
+}
+.ukr-top{
+    height: 100px;
+    width: 300px;
+    background-color: rgb(0,86,184);
+}
+.ukr-bottom{
+    height: 100px;
+    width: 300px;
+    background-color: rgb(255,216,0);
+}
+.benin{
+    height: 250px;
+    width: 300px;
+    border: 2px solid black;
+    background-color: rgb(240, 242, 242);
+    margin: 10px;
+    padding: 10px;
+   float: left;
+}
+.be-green{
+    height: 200px;
+    width: 100px;
+    background-color: rgb(0,136,80);
+    float: left;
+}
+.be-right{
+    height: 200px;
+    width: 200px;
+    float: left;
+}
+.be-top{
+    height: 100px;
+    width: 200px;
+    background-color: rgb(252,210,15);
+}
+.be-bottom{
+    height: 100px;
+    width: 200px;
+    background-color: rgb(233,9,41);
+}
+.france{
+    height: 250px;
+    width: 300px;
+    border: 2px solid black;
+    background-color: rgb(240, 242, 242);
+    margin: 10px;
+    padding: 10px;
+   float: left;
+}
+.fra-one{
+    height: 200px;
+    width: 100px;
+    background-color: rgb(0,38,84);
+    float: left;
+}
+.fra-two{
+    height:200px ;
+    width: 100px;
+    background-color: rgb(255,255,255);
+    float: left;
+}
+.fra-three{
+    height:200px ;
+    width: 100px;
+    background-color: rgb(205,17,39);
+    float: left;
+}
+.palastine{
+    height: 250px;
+    width: 300px;
+    border: 2px solid black;
+    background-color: rgb(240, 242, 242);
+    margin: 10px;
+    padding: 10px;
+   float: left;
+}
+.pa-black{
+    height: 66.67px;
+    width: 300px;
+    background-color: black;
+}
+.pa-white{
+    height: 66.67px;
+    width: 300px;
+    background-color: white;
+}
+.pa-green{
+    height: 66.67px;
+    width: 300px;
+    background-color: green;
+}
+.pa-red{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    position: absolute;
+    display: block;
+ clip-path: polygon(0 0, 0 100%, 60% 50%);
+}
+.sweden{
+    height: 250px;
+    width: 300px;
+    border: 2px solid black;
+    background-color: rgb(240, 242, 242);
+    margin: 10px;
+    padding: 10px;
+   float: left;
+}
+.sweden-flag{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(0,103,162);
+    position: relative;
+}
+.sweden-flag::before{
+    content: "";
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 100%;
+    left: 55px;
+    background-color: rgb(246,198,0);
+}
+.sweden-flag::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 50px;
+    top: 50%;
+    transform:translateY(-50%);
+    background-color: rgb(246,198,0);
+}
+.bahrain{
+    height: 250px;
+    width: 300px;
+    border: 2px solid black;
+    background-color: rgb(240, 242, 242);
+    margin: 10px;
+    padding: 10px;
+   float: left;
+} 
+.bah-white{
+height: 200px;
+width: 50px;
+background-color:rgb(255,255,255) ;
+float: left;
+}
+.traiangle{
+    position: relative;
+    border-top: 20px solid rgb(164,29,34);
+    border-left: 40px solid rgb(255,255,255);
+    border-bottom: 21px solid rgb(164,29,34);
+    width: 200px;
+    left: 0px;
+    float: left;
+}
+.tanzania{
+    height: 250px;
+    width: 300px;
+    border: 2px solid black;
+    background-color: rgb(240, 242, 242);
+    margin: 10px;
+    padding: 10px;
+   float: left;
+} 
+.tan-flag{
+    height: 200px;
+    width: 300px;
+    background: linear-gradient(
+        -213.5deg,
+        #17b636 130px,
+        #ffcd00 130px,
+        #ffcd00 140px,
+        #000 140px,
+        #000 190px,
+        #ffcd00 190px,
+        #ffcd00 200px,
+        #00a5df 0
+      );
+}
+
+.india{
+    height: 250px;
+    width: 300px;
+    border: 2px solid black;
+    background-color: rgb(240, 242, 242);
+    margin: 10px;
+    padding: 10px;
+   float: left;
+}
+.ind-top{
+    height: 66.6px;
+    width: 300px;
+    background-color: rgb(255,154,51);
+}
+.ind-middle{
+    height: 73px;
+    width: 300px;
+    background-color: white;
+}
+.ind-bottom{
+    height: 66.6px;
+    width: 300px;
+    background-color: rgb(19,136,7);
+}
+.asok-chakra{
+  width: 72px;  
+  height: 72px;
+  position: relative;
+  border: 4.5px solid rgb(1,1,126);
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.asok-chakra::before{
+    content: "";
+    position: absolute;
+    top: 29.25px;
+    left: 29.25px;
+    width: 13.5px;
+    height: 13.5px;
+    background-color:rgb(1,1,126);
+    border-radius: 50%;
+}
+.spoke{
+    width: 4.5px;
+    height: 0;
+    position: absolute;
+    top: 34.875px;
+    left: 36px;
+    border-top: 1.125px solid transparent;
+    border-radius: 9px solid rgb(1,1,126);
+    border-bottom: 1.125px solid transparent;
+    transform-origin: 0 1.125px;
+}
+.spoke::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: -1.125px;
+    left: 13.5px;
+    border-top: 1.125px solid transparent;
+    border-left: 22.5px solid rgb(1,1,126);
+    border-bottom: 1.125px solid transparent;
+}
+.spoke::after{
+    content: "";
+    position: absolute;
+    width: 3.6px;
+    height: 3.6px;
+    top: 2.97px;
+    left: 34.2px;
+    background-color: rgb(1,1,126);
+    border-radius: 50%;
+}
+.spoke-1{
+    transform: rotate(0deg);
+
+}
+.spoke-2{
+    transform: rotate(15deg);
+}
+.spoke-3{
+    transform: rotate(30deg);
+}
+.spoke-4{
+    transform: rotate(45deg);
+}
+.spoke-5{
+    transform: rotate(60deg);
+}
+.spoke-6{
+    transform: rotate(75deg);
+}
+.spoke-6{
+    transform: rotate(90deg);
+}
+.spoke-7{
+    transform: rotate(105deg);
+}
+.spoke-8{
+    transform: rotate(120deg);
+}
+.spoke-9{
+    transform: rotate(135deg);
+}
+.spoke-10{
+    transform: rotate(150deg);
+}
+.spoke-11{
+    transform: rotate(165deg);
+}
+.spoke-12{
+    transform: rotate(180deg);
+}
+.spoke-13{
+    transform: rotate(195deg);
+}
+.spoke-14{
+    transform: rotate(210deg);
+}
+.spoke-15{
+    transform: rotate(225deg);
+}
+.spoke-16{
+    transform: rotate(240deg);
+}
+.spoke-17{
+    transform: rotate(255deg);
+}
+.spoke-18{
+    transform: rotate(270deg);
+}
+.spoke-19{
+    transform: rotate(285deg);
+}
+.spoke-20{
+    transform: rotate(300deg);
+}
+.spoke-21{
+    transform: rotate(315deg);
+}
+.spoke-22{
+    transform: rotate(330deg);
+}
+.spoke-23{
+    transform: rotate(345eg);
+}
+.spoke-24{
+    transform: rotate(355deg);
+}
+.usa{
+    height: 250px;
+    width: 300px;
+    border: 2px solid black;
+    background-color: rgb(240, 242, 242);
+    margin: 10px;
+    padding: 10px;
+   float: left;
+}
+.flag {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+  }
+  
+  .united_states {
+    background: repeating-linear-gradient(
+      #b22234,
+      #b22234 7.7%,
+      #fff 7.7%,
+      #fff 15.4%
+    );
+  }
+  
+  .united_states__top_left {
+    background: #3c3b6e;
+    height: 54%;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .united_states__stars_col {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .united_states__star {
+    height: 10px;
+    aspect-ratio: 1;
+    background: white;
+    clip-path: polygon(
+      50% 0%,
+      61% 35%,
+      98% 35%,
+      68% 57%,
+      79% 91%,
+      50% 70%,
+      21% 91%,
+      32% 57%,
+      2% 35%,
+      39% 35%
+    );
+  }
